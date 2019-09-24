@@ -18,7 +18,15 @@ setTimeout(() => {
 }, 700);
 
 setTimeout(() => {
+  process.stdout.write('\r|   ');
+}, 100);
+
+setTimeout(() => {
   process.stdout.write('\r/   ');
 }, 800);
+
+setTimeout(() => {
+  process.stdout.write('\r-   ');
+}, 500);
 
 // ... fill in the rest yourself ...
